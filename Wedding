@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Memories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffd700;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .biography {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wedding Memories</h1>
+    </header>
+    <section class="container">
+        <h2>Collect Wedding Photos</h2>
+        <p>Dear guests, please share your cherished memories from our special day by uploading your photos below:</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="photo">Select Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+            <br>
+            <button type="submit">Upload</button>
+        </form>
+    </section>
+    <section class="container">
+        <h2>Groomsmen Biographies</h2>
+        <div class="biography">
+            <!-- Groomsmen biographies go here -->
+        </div>
+    </section>
+    <section class="container">
+        <h2>Bridesmaids Biographies</h2>
+        <div class="biography">
+            <!-- Bridesmaids biographies go here -->
+        </div>
+    </section>
+    <section class="container">
+        <h2>Wedding Couple Biography</h2>
+        <div class="biography">
+            <p>Liseth and Matthias met in [Year] and have been inseparable ever since. They are excited to celebrate their love surrounded by family and friends.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Contact: [Your Email Address]</p>
+    </footer>
+</body>
+</html>
